@@ -2,7 +2,7 @@ using System;
 using System.Text;
 using System.Security.Cryptography;
 
-namespace com.pakhee.common
+namespace CryptLib
 {
 	/*****************************************************************
 	 * CrossPlatform CryptLib
@@ -15,10 +15,7 @@ namespace com.pakhee.common
 	 * 1. 256 bit AES encryption
 	 * 2. Random IV generation. 
 	 * 3. Provision for SHA256 hashing of key. 
-	 * </p>
-	 * 
-	 * @since 1.0
-	 * @author navneet
+	 * </p>	
 	 *****************************************************************/
 	public class CryptLib
 	{
