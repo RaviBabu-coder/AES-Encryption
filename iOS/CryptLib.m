@@ -10,9 +10,6 @@
 	 * 2. Random IV generation. 
 	 * 3. Provision for SHA256 hashing of key. 
 	 * </p>
-	 * 
-	 * @since 1.0
-	 * @author navneet
 	 *****************************************************************/
 // How to use :
 // //  1. Encryption:
