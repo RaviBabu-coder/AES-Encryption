@@ -4,7 +4,7 @@
 	    	CryptLib _crypt = new CryptLib();
 	    	String output= "";
 	    	String plainText = "This is the text to be encrypted.";
-	    	String key = CryptLib.SHA256("my secret key", 32);//APMT TERMPoint Mobile SecuritKey HashCode = 8191 //32 bytes = 256 bit 
+	    	String key = CryptLib.SHA256("APMT TERMPoint Mobile Security Key HashCode = 8191", 32);//32 bytes = 256 bit 
 	    	String iv = CryptLib.generateRandomIV(16); //16 bytes = 128 bit
 	    	output = _crypt.encrypt(plainText, key, iv); //encrypt
 	    	System.out.println("encrypted text=" + output);
